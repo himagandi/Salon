@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define overall styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0bddf4;
+    line-height: 1.9;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(228, 20, 201, 0.8);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #134670;
+}
+
+p {
+    font-size: 18px;
+    color: #5b0bef;
+}
+
+
+header {
+    background-color: #89e00f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #143795;
+}
+
+/* Define section styles */
+section {
+    padding: 2rem;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    max-width: 15%;
+    height: 15%;
+}
+
+.price-item {
+    text-align: center;
+}
+
+/* Define footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
